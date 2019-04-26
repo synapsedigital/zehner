@@ -1,0 +1,54 @@
+
+.index-view {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+
+.index-view .hero-contents {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.index-view .hero-contents h1 {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .index-view .hero-contents h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .index-view .hero-contents {
+    position: absolute;
+    width: 400px;
+    top: 115px;
+    left: 15%;
+  }
+}
+
+
+.index-view .hero-contents p {
+  text-transform: none;
+}
+
+
+.index-view .hero-contents button {
+  background: none;
+  border: 1px solid #f95951;
+  color: #f95951;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 7px 25px;
+  font-size: 14px;
+}
